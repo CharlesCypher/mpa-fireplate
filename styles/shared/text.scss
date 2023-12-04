@@ -1,0 +1,18 @@
+%link {
+  text-decoration: none;
+}
+
+%text-0 {
+  visibility: hidden;
+  font-size: 0;
+  &:before,
+  &:after {
+    visibility: visible;
+  }
+}
+
+%text-s {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
