@@ -1,6 +1,6 @@
 {
-  "name": "untitled",
-  "version": "0.0.0",
+  "name": "odumodublvck",
+  "version": "1.0.0",
   "scripts": {
     "start": "concurrently --kill-others \"pnpm run frontend:build\" \"pnpm run backend:build\"",
     "dev": "concurrently --kill-others \"pnpm run backend:dev\" \"pnpm run frontend:dev\"",
@@ -10,7 +10,7 @@
     "backend:build": "node index.js",
     "preview": "vite preview"
   },
-  "author": "Goodness Urama",
+  "author": "Chiagbaizu Charles",
   "dependencies": {
     "@prismicio/client": "^7.3.1",
     "compression": "^1.7.4",
